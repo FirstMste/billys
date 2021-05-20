@@ -121,7 +121,7 @@
     padding: 4%;
   }
   .Header {
-    text-align: center;
+    margin-left: 50px;
   }
   .topBar img {
     width: 100px;
@@ -132,7 +132,7 @@
   }
   .num {
     list-style-type: none;
-    margin-top: -20px;
+    margin-top: 66px;
     padding-left: 40px;
     float: left;
     color: black;
@@ -142,7 +142,6 @@
     float: right;
     padding-left: 60px;
     color: black;
-    margin-top: -90px;
   }
   .form4 h2 {
     text-align: center;
