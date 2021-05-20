@@ -124,22 +124,25 @@
     text-align: center;
   }
   .topBar img {
-    width: 80px;
+    width: 100px;
     padding: 0% 1%;
     float: left;
-    border-radius: 60px;
-    margin-bottom: 30px;
+    border-radius: 50px;
+    margin-top: -16px;
   }
   .num {
     list-style-type: none;
     margin-top: -20px;
-    padding-left: 70px;
+    padding-left: 40px;
     float: left;
+    color: black;
   }
   .Em {
     list-style-type: none;
-    float: left;
-    padding-left: 70px;
+    float: right;
+    padding-left: 60px;
+    color: black;
+    margin-top: -90px;
   }
   .form4 h2 {
     text-align: center;
