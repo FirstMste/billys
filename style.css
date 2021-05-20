@@ -141,6 +141,10 @@
     float: left;
     padding-left: 70px;
   }
+  .form4 h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
   .form4 img {
     width: 30%;
     float: right;
