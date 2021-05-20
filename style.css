@@ -1,3 +1,8 @@
+@media only screen and (max-width: 600px) {
+  body {
+    height: fit-content;
+  }
+}
 body {
   background-image: url(images/018-Subtle-light-patterns-Vol04.png);
   background-size: fill;
@@ -13,16 +18,30 @@ body {
   float: left;
   top: 1%;
 }
-.topBar img.logo {
+.topBar img {
   width: 120px;
-  padding: 0% 15% 0% 11%;
+  padding: 0% 1%;
   float: left;
   border-radius: 60px;
 }
-.topBar .Header {
+.Header {
   text-align: center;
   float: left;
-  padding-left: 10%;
+  padding: 0% 11%;
+}
+.num {
+  float: left;
+  list-style-type: none;
+  padding: 10px 20px;
+  color: black;
+  left: 10px;
+}
+.Em {
+  float: left;
+  list-style-type: none;
+  padding: 10px 80px;
+  color: black;
+  left: 10px;
 }
 .form4 {
   margin-top: 2%;
