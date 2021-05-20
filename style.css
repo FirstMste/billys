@@ -1,106 +1,179 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 601px) {
   body {
-    height: fit-content;
+    background-image: url(images/018-Subtle-light-patterns-Vol04.png);
+    background-size: fill;
+    font-family: Arial;
+    border-radius: 3%;
+  }
+  .topBar {
+    background-color: grey;
+    width: 100%;
+    height: 15%;
+    color: white;
+    text-align: center;
+    float: left;
+    top: 1%;
+  }
+  .topBar img {
+    width: 120px;
+    padding: 0% 1%;
+    float: left;
+    border-radius: 60px;
+  }
+  .Header {
+    text-align: middle;
+    float: left;
+    padding: 0% 11%;
+    font-size: 30px;
+    top: 50px;
+  }
+  .num {
+    float: left;
+    list-style-type: none;
+    padding: 10px 20px;
+    color: black;
+    left: 10px;
+    margin-top: 80px;
+  }
+  .Em {
+    float: right;
+    list-style-type: none;
+    padding: 10px 80px;
+    color: black;
+    left: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .form4 {
+    margin-top: 2%;
+  }
+  .form4 h2 {
+    text-align: center;
+    padding-top: 10%;
+  }
+  .form4 .text2 {
+    text-align: center;
+  }
+  .line2 {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .form4 img {
+    width: 20%;
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .form4 .floor {
+    width: 20%;
+    float: left;
+    padding: 1%;
+  }
+  .Tasks {
+    list-style-type: decimal;
+  }
+  .call {
+    list-style-type: square;
+  }
+  .info {
+    float: left;
+  }
+  .info h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .footBar {
+    background-color: grey;
+    width: 100%;
+    height: 25%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-left: 0%;
+    float: left;
+    color: white;
+  }
+  .footBar li {
+    list-style-type: none;
+    border-left: 12px;
+    float: left;
+    padding: 12px;
+  }
+  .footBar img {
+    width: 35px;
+    float: left;
+    padding: 12px;
+    border-radius: 5%;
   }
 }
-body {
-  background-image: url(images/018-Subtle-light-patterns-Vol04.png);
-  background-size: fill;
-  font-family: Arial;
-  border-radius: 3%;
-}
-.topBar {
-  background-color: grey;
-  width: 100%;
-  height: 15%;
-  color: white;
-  text-align: center;
-  float: left;
-  top: 1%;
-}
-.topBar img {
-  width: 120px;
-  padding: 0% 1%;
-  float: left;
-  border-radius: 60px;
-}
-.Header {
-  text-align: center;
-  float: left;
-  padding: 0% 11%;
-}
-.num {
-  float: left;
-  list-style-type: none;
-  padding: 10px 20px;
-  color: black;
-  left: 10px;
-}
-.Em {
-  float: left;
-  list-style-type: none;
-  padding: 10px 80px;
-  color: black;
-  left: 10px;
-}
-.form4 {
-  margin-top: 2%;
-}
-.form4 h2 {
-  text-align: center;
-  padding-top: 10%;
-}
-.form4 .text2 {
-  text-align: center;
-}
-.line2 {
-  text-align: center;
-  padding-bottom: 5%;
-}
-.form4 img {
-  width: 20%;
-  float: left;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-.form4 .floor {
-  width: 20%;
-  float: left;
-  padding: 1%;
-}
-.Tasks {
-  list-style-type: decimal;
-}
-.call {
-  list-style-type: square;
-}
-.info {
-  float: left;
-}
-.info h3 {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.footBar {
-  background-color: grey;
-  width: 100%;
-  height: 25%;
-  margin-bottom: 5px;
-  padding: 10px;
-  border-left: 0%;
-  float: left;
-  color: white;
-}
-.footBar li {
-  list-style-type: none;
-  border-left: 12px;
-  float: left;
-  padding: 12px;
-}
-.footBar img {
-  width: 35px;
-  float: left;
-  padding: 12px;
-  border-radius: 5%;
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(images/018-Subtle-light-patterns-Vol04.png);
+    background-size: fill;
+    font-family: Arial;
+    border-radius: 3%;
+  }
+  .topBar {
+    background-color: grey;
+    width: 100%;
+    height: -4px;
+    color: white;
+    padding: 4%;
+  }
+  .Header {
+    text-align: center;
+  }
+  .topBar img {
+    width: 80px;
+    padding: 0% 1%;
+    float: left;
+    border-radius: 60px;
+    margin-bottom: 30px;
+  }
+  .num {
+    list-style-type: none;
+    margin-top: -20px;
+    padding-left: 70px;
+    float: left;
+  }
+  .Em {
+    list-style-type: none;
+    float: left;
+    padding-left: 70px;
+  }
+  .form4 img {
+    width: 30%;
+    float: right;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .floor {
+    float: right;
+  }
+  .Tasks {
+    float: left;
+    list-style-type: decimal;
+  }
+  .footBar {
+    background-color: grey;
+    width: 100%;
+    height: 25%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-left: 0%;
+    float: left;
+    color: white;
+  }
+  .footBar li {
+    list-style-type: none;
+    border-left: 12px;
+    float: left;
+    padding: 12px;
+  }
+  .footBar img {
+    width: 35px;
+    float: left;
+    padding: 12px;
+    border-radius: 13px;
+  }
 }
