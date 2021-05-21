@@ -177,6 +177,9 @@
     padding: 12px;
     cursor: pointer;
   }
+  .insta {
+    text-decoration: none;
+  }
   .footBar img {
     width: 35px;
     float: left;
