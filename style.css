@@ -169,12 +169,15 @@
     border-left: 0%;
     float: left;
     color: white;
+    text-decoration: none;
   }
   .footBar li {
     list-style-type: none;
     border-left: 12px;
     float: left;
     padding: 12px;
+    cursor: pointer;
+    text-decoration: none;
   }
   .footBar img {
     width: 35px;
