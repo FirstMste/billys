@@ -82,6 +82,10 @@
     text-align: center;
     text-decoration: underline;
   }
+  .endNote {
+    text-align: center;
+    font-size: 22px;
+  }
 
   .footBar {
     background-color: grey;
@@ -163,6 +167,10 @@
   .Tasks {
     float: left;
     list-style-type: decimal;
+  }
+  .endNote {
+    text-align: center;
+    font-size: 22px;
   }
   .footBar {
     background-color: grey;
